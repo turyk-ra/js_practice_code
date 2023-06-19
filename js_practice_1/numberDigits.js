@@ -9,11 +9,11 @@
 // For example, numberDigits(-202) would output:
 // 'The number is: -202'
 const numberDigits = x => {
-    if ( x<= 9 && x >= 0 ){
+    if (x <= 9 && x >= 0) {
         return `One digit: ${x}`;
-    }else if( x>=10 && x<=99){
+    } else if (x >= 10 && x <= 99) {
         return `Two digits: ${x}`;
-    }else{
+    } else {
         return `The number is: ${x}`;
     }
 }
