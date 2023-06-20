@@ -51,6 +51,6 @@ const letters = ['d', 'b', 'e', 'a', 'c'];
 console.log('Letters: ', letters.sort());
 
 // The .toString() returns a string with each of the array values, separated by commas. Does not mutate the original array.
-let fruits = ['Apple','Blueberries','Banana','Lemon','Mango','Orange','Grapes','Pineapple'];
+let fruits = ['Apple', 'Blueberries', 'Banana', 'Lemon', 'Mango', 'Orange', 'Grapes', 'Pineapple'];
 let fruitsString = fruits.toString();
 console.log(fruitsString);

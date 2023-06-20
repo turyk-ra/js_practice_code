@@ -13,7 +13,7 @@ const changeTheWordByIndex = (array, arrayWord, newWord) => {
     array[index] = newWord;
     console.log(array);
 }
-changeTheWordByIndex(secretMessage,'easily','right');
+changeTheWordByIndex(secretMessage, 'easily', 'right');
 // Use an array method to remove the first string of the array.
 secretMessage.shift();
 // console.log(secretMessage);
@@ -21,7 +21,7 @@ secretMessage.shift();
 secretMessage.unshift('Programming');
 // console.log(secretMessage);
 // Use an array method to remove the strings get, right, the, first, time,, and replace them with the single string know,.
-const replaced = secretMessage.splice(secretMessage.indexOf('get'),5,'know,');
+const replaced = secretMessage.splice(secretMessage.indexOf('get'), 5, 'know,');
 // console.log(replaced);
 // console.log(secretMessage);
 // On one line, use console.log() and .join() to print the secret message as a sentence.
